@@ -20,14 +20,17 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
-}
+   
+}    
 nav img{
     height:100px;
     width: 100px;
 }
 nav ul{
     list-style-type: none;
+    right: 50px;
+    position: absolute;
+    top: 30px;
 }
 nav ul a{
     text-decoration: none;
@@ -39,8 +42,8 @@ nav ul a{
 }
 .links ul li{
     display: inline-block;
-    padding: 10px 25px;
-   
+    padding: 10px 30px;
+    
 }
 .links ul li:after{
     content: '';
