@@ -9,12 +9,17 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background:url("images/fafas.jpg") no-repeat;
-    background-position: center;
-    background-size: cover;
     position: relative;
     min-height: 100vh;
-    
+}
+.vid{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-height: 100%;
+    min-width: 100%;
+    background-position: center;
+    background-size: cover;
 }
 nav{
     display: flex;
@@ -30,10 +35,10 @@ nav ul{
 }
 nav ul a{
     text-decoration: none;
-    color:black;
+    color:white;
     font-size: 15px;
     font-weight: 900;
-    text-shadow: 0px 0px 6px rgb(248, 240, 8);
+    
 }
 .links{
     text-align: right;
@@ -62,7 +67,7 @@ nav ul a{
     width: 500px;
     background:transparent;
     border: 2px solid rgb(173, 164, 164);
-    backdrop-filter: blur(25px);
+    backdrop-filter: blur(8px);
     box-shadow: 0px 0px 5px black;
     color: white;
     border-radius: 10px;
