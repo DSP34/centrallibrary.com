@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+ display: flex;   
+ justify-content: center;
+ align-items: center;
+background: url("images/reg.webp") no-repeat;
+background-position: center;
+background-size: cover;
+position: relative;
+min-height: 100vh;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+nav ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.links ul li{
+    display: inline-block;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px 30px;
+}
+
+.links ul li::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: red;
+    margin: auto;
+    display: none;
+}
+.links ul li:hover::after{
+    display: block;
+}
+.register{
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 5px black;
+    background:transparent;
+    border: 2px solid rgb(173, 164, 164);
+   background:transparent;
+   backdrop-filter: blur(25px);
+   border: none;
+}
+.register h1{
+    text-align: center;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 900;
+    text-shadow: 0px 0px 3px black;
+}
+.name{
+    display: inline-block;
+    padding: 10px 20px;
+}
+.name input{
+    border: none;
+    outline: none;
+    padding: 5px ;
+    color:black;
+    border: 1px solid white;
+    background: transparent;
+    font-size: 14px;
+    box-shadow: 0px 0px 5px black;
+}
+.name input::placeholder{
+    color: white;
+}
+.mail{
+    padding: 10px 20px;
+}
+.mail input::placeholder{
+    color: white;
+}
+.mail input{
+    width: 97%;
+    align-content: center;
+    border: none;
+    outline: none;
+    background:transparent;
+    border: 1px solid white;
+    border-radius: 1px;
+    padding: 5px;
+    font-size: 14px;
+    box-shadow: 0px 0px 5px black;
+}
+.terms{
+    padding: 10px 20px;
+}
+.terms input{
+    accent-color: white;
+    
+}
+.terms a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    text-shadow: 0px 0px 3px black;
+}
+.terms a:hover{
+    text-decoration: underline;
+}
+.register .reg{
+    width: 69%;
+    padding: 10px 20px;
+    align-content: center;
+    border: none;
+    outline: none;
+    margin: 20px 60px;
+    background:white;
+    border: 1px solid white;
+    border-radius: 49px;
+    cursor: pointer;
+   
+    font-size: 15px;
+   
+    font-weight: 900;
+}
+.login{
+    text-align: center;
+    margin: 20px 20px 0 0;
+}
+.login h4{
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    text-shadow: 0px 0px 3px black;
+}
+.login a{
+    text-decoration: ;
+    color: white;
+    font-size: 16px;
+    text-shadow: 0px 0px 3px black;
+}
+.reg:hover{
+    box-shadow: 0px 0px 6px red;
+}
